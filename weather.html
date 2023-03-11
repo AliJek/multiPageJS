@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Multi Javascript Page APP</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<script src="/src/js/main.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+	<div class="wrapper">
+		<div class="nav">
+			<a href="index.html" class="nav__logo">AliJek<a>
+			<div class="nav__mobile">
+                <a href="weather.html" class="nav__mobile-item">Weather App</a>
+                <a href="searchEngine.html" class="nav__mobile-item">DrinkSearch App</a>
+                <a href="stoper.html" class="nav__mobile-item">Stoper App</a>
+                <a href="todo.html" class="nav__mobile-item">TodoList App</a>
+            </div>
+			<div class="nav__desktop">
+                <a href="weather.html" class="nav__desktop-item">Weather App</a>
+                <a href="searchEngine.html" class="nav__desktop-item">DrinkSearch App</a>
+                <a href="stoper.html" class="nav__desktop-item">Stoper App</a>
+                <a href="todo.html" class="nav__desktop-item">TodoList App</a>
+            </div>
+            <button class="nav__btn"></button>
+		</div>
+	</div>
+</header>
+
+
+		<main class="main-weather">
+			<div class="wrapper">
+				<div class="weatherapp">
+					<h1>Weather App</h1>
+					<div class="weatherapp__top">
+						<input type="text" id="city" />
+						<button class="weatherapp__top-btn">
+							<img src="/src/img/search-svgrepo-com.svg" alt="" />
+						</button>
+					</div>
+                    <p class="error"></p>
+                    <h2 class="weatherapp__city"></h2>
+					<div class="weatherapp__bottom">
+						 <p class="temperature"></p>
+						 <p class="weather"></p>
+						 <p class="weather-img"></p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script></script>
+	</body>
+</html>

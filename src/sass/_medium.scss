@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+	body {
+		.header {
+			.nav {
+				&__mobile {
+					display: none;
+				}
+
+				&__desktop {
+					display: flex;
+				}
+
+				&__btn {
+					display: none;
+				}
+			}
+		}
+
+		.main-container {
+
+			&__grid {
+				grid-template-columns: repeat(5, 1fr);
+				grid-template-rows: repeat(2, 1fr);
+
+				&-item {
+					padding: 8em;
+				}
+
+				.weather {
+					grid-column: 1/4;
+					grid-row: 1/2;
+				}
+
+				.menu {
+					grid-column: 4/6;
+					grid-row: 1/2;
+				}
+
+				.stoper {
+					grid-column: 1/3;
+					grid-row: 2/3;
+				}
+
+				.todo {
+					grid-column: 3/6;
+					grid-row: 2/3;
+				}
+			}
+		}
+
+		
+	}
+
+
+
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Multi Javascript Page APP</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<script src="/src/js/drinkSearch.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+	<div class="wrapper">
+		<div class="nav">
+			<a href="index.html" class="nav__logo">AliJek<a>
+			<div class="nav__mobile">
+                <a href="weather.html" class="nav__mobile-item">Weather App</a>
+                <a href="searchEngine.html" class="nav__mobile-item">DrinkSearch App</a>
+                <a href="stoper.html" class="nav__mobile-item">Stoper App</a>
+                <a href="todo.html" class="nav__mobile-item">TodoList App</a>
+            </div>
+			<div class="nav__desktop">
+                <a href="weather.html" class="nav__desktop-item">Weather App</a>
+                <a href="searchEngine.html" class="nav__desktop-item">DrinkSearch App</a>
+                <a href="stoper.html" class="nav__desktop-item">Stoper App</a>
+                <a href="todo.html" class="nav__desktop-item">TodoList App</a>
+            </div>
+            <button class="nav__btn"></button>
+		</div>
+	</div>
+</header>
+
+		<main class="search-section">
+			<div class="search-engine">
+				<div class="search-engine__top">
+					<div class="search-engine__top-shadow"></div>
+					<h1>Drink Search</h1>
+					<input type="text" placeholder="Enter the name..." id="search" />
+					<div class="error"></div>
+					<button class="search-engine__top-btn">Search</button>
+				</div>
+				<div class="search-engine__bottom">
+					<h2>Drink list:</h2>
+
+					<ul class="search-list">
+					
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<script></script>
+	</body>
+</html>
